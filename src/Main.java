@@ -37,5 +37,10 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        System.out.println("Задача 6");
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var totalWeight = boxerWeight1 + boxerWeight2;
+        System.out.println("Общий вес спортсменов " + totalWeight + "кг.");
     }
 }
