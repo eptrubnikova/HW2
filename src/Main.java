@@ -42,5 +42,10 @@ public class Main {
         var boxerWeight2 = 82.7;
         var totalWeight = boxerWeight1 + boxerWeight2;
         System.out.println("Общий вес спортсменов " + totalWeight + "кг.");
+        System.out.println("Задача 7");
+        var weightDifference = boxerWeight2 - boxerWeight1;
+        System.out.println("Разница веса спортсменов " + weightDifference + "кг.");
+        var weightDifference2 = boxerWeight2 % boxerWeight1;
+        System.out.println("Разница веса " + weightDifference2 + "кг.");
     }
 }
